@@ -12,7 +12,7 @@ const Post = ({ post }) => {
   return (
     <div className="border-indigo-700 rounded-2xl p-5 bg-orange-600 flex-col items-center justify-center">
       <h4>Post of Id: {id}</h4>
-      <p className="mt-6">{title}</p>
+      <p className="mt-6 mb-6">{title}</p>
       <Link className="bg-slate-100 rounded-xl p-4 m-5" to={`/post/${id}`}>
         Post Detail
       </Link>

@@ -1,11 +1,9 @@
-import { Outlet, useLocation, useNavigation } from "react-router-dom";
+import { Outlet,  useNavigation } from "react-router-dom";
 import Header from "../Header/Header";
 
 const Home = () => {
 
     const navigation = useNavigation();
-    const location = useLocation();
-
     return (
         <div>
             <Header></Header>
